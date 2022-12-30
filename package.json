@@ -1,0 +1,25 @@
+{
+  "name": "canil",
+  "version": "1.0.0",
+  "description": "Esse é um projeto para melhorar o conhecimento em TS, node e javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franciscokkkjjjk/projeto-node-ts.git"
+  },
+  "keywords": [
+    "canil"
+  ],
+  "author": "Luis Francisco Brum Gomes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franciscokkkjjjk/projeto-node-ts/issues"
+  },
+  "homepage": "https://github.com/franciscokkkjjjk/projeto-node-ts#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  }
+}

@@ -16,12 +16,12 @@ const server = express();
 server.set('view engine', 'mustache'); 
 
 server.set('views', path.join(__dirname, 'views'));
+const teste = __dirname;
 console.log(path.join(__dirname, 'views'));
 server.engine('mustache', mustache());
 
 server.use(express.static(path.join(__dirname, '../public'))); // define onde estão meus arquivos estaticos
 server.use(mainRouters);
-
 
 
 // server.use((req: Request, res: Response)=>{
